@@ -27,7 +27,7 @@ def plot_weather_data(data):
     plt.show()
 
 def main():
-    API_KEY = "3f19a7fd08370577lll704e5aafb1db1"
+    API_KEY = "3f19a7fd0837057****704e5aafb1db1" # Replace with your OpenWeatherMap API key
     city = input("Enter city name: ").strip()
     data = get_weather_data(city, API_KEY)
     if data and data.get("cod") == 200:
